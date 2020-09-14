@@ -7,7 +7,7 @@
     <application>
         <provider
             android:name=".updateApk.UpdateFileProvider"
-            android:authorities="com.sctuopuyi.hcms.downloadedfileprovider"
+            android:authorities="${applicationId}.downloadedfileprovider"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
